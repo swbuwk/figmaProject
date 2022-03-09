@@ -926,6 +926,15 @@ header > img {
     width: 360px;
     margin-bottom: 0 !important;
   }
+  .hero-info h1 {
+    font-size: 50px;
+  }
+  .hero {
+    height: 800px;
+  }
+  header {
+    height: fit-content;
+  }
 
   .features-2-block {
     height: fit-content;
@@ -942,7 +951,11 @@ header > img {
     width: 700px;
   }
   .hero-info {
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-left: 70px;
+  }
+  .hero-info h1 {
+    font-size: 70px;
   }
   .testimonials-bg {
     width: calc(100% - 100px);
@@ -986,10 +999,6 @@ header > img {
 @media screen and (max-width: 1520px) {
   .features-2-block img {
     width: 320px;
-  }
-
-  .hero-info h1 {
-    font-size: 70px;
   }
 
   .hero-info {
@@ -1056,9 +1065,6 @@ header > img {
   }
   .hero img {
     width: 600px;
-  }
-  header {
-    height: 90vh;
   }
 
   .footer-features {
